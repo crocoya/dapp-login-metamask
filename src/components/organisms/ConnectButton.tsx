@@ -55,6 +55,8 @@ export default function ConnectButton({ handleOpenModal }: Props) {
       </Button>
     </Box>
   ) : (
-    <Button onClick={handleConnectWallet}>Connect to a wallet</Button>
+    <Button margin='5' onClick={handleConnectWallet}>
+      Connect to a wallet
+    </Button>
   );
 }
